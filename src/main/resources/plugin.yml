@@ -3,3 +3,11 @@ version: '1.0'
 main: org.flennn.JackpotDuel
 api-version: '1.21'
 author: flennn
+
+commands:
+  jackpotduel:
+    description: Challenge a player to a jackpot duel
+    usage: /<command> <player>
+  jackpotaccept:
+    description: Accept a jackpot duel challenge
+    usage: /<command> <player>
